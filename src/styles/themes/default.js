@@ -1,7 +1,8 @@
 export const defaultTheme = {
   colors: {
-    primary: 'red',
-    secondary: 'blue',
+    primary: '#0a1128',
+    secondary: '#dc143c',
+    white: '#fff',
   },
   fonts: {},
   spacings: {},
