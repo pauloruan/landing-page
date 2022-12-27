@@ -6,7 +6,7 @@ export const Title = styled.h1`
   color: ${({ theme, dark }) => (dark ? theme.colors.white : theme.colors.secondary)};
   text-transform: ${({ uppercase }) => (uppercase ? 'uppercase' : 'none')};
 
-  @media (max-width: 768px) {
+  @media ${({ theme }) => theme.medias.lteMedium} {
     font-size: ${({ theme }) => theme.fonts.sizes.xlarge};
   }
 `;
