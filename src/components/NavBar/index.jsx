@@ -21,5 +21,5 @@ NavBar.propTypes = {
       link: PropTypes.string.isRequired,
       newTab: PropTypes.bool,
     }),
-  ).isRequired,
+  ),
 };
