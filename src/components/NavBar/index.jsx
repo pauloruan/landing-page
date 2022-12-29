@@ -4,7 +4,7 @@ import * as Styled from './styles';
 
 export default function NavBar({ links = [] }) {
   return (
-    <Styled.Container>
+    <Styled.Container aria-label="Main menu">
       {links.map((link) => (
         <MenuLink key={link.link} link={link.link} newTab={link.newTab}>
           {link.children}
