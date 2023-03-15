@@ -31,7 +31,7 @@
     "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
     "react-scripts": "5.0.1",
-    "webpack": "^5.75.0"
+    "webpack": "^5.76.0"
   },
   "resolutions": {
     "trim": "0.0.3",
